@@ -207,7 +207,7 @@ function console_menu() {
   apt install figlet -y &>/dev/null
   addr=$(curl -s icanhazip.com)
   figlet 'DTCHECK' | lolcat
-    echo -n 'DTCheckUSER MENU v2 - '
+    echo -n 'DTCheckUSER  - '
     if is_installed; then
         echo -e '\e[32m[INSTALADO]\e[0m - Versao:' $(get_version)
     else
@@ -215,7 +215,7 @@ function console_menu() {
     fi
 
     echo -e "╔════════════════•⊱✦⊰•════════════════╗" | lolcat
-    echo '🔗 URL Checkuser: http://'$addr':'$port''
+    echo '🔗 URL: http://'$addr':'$port''
     echo
     echo '[01] - INSTALAR CHECKUSER'
     echo '[02] - REINSTALAR CHECKUSER'
@@ -223,7 +223,6 @@ function console_menu() {
     echo '[04] - GERENCIAR DEVICEID'
     echo '[05] - ALTERAR PORTA CHECKUSER'
     echo '[00] - SAIR'
-    echo
     echo -e "╚════════════════•⊱✦⊰•════════════════╝" | lolcat
     echo
     read -p '★ Escolha uma opção: ' option
