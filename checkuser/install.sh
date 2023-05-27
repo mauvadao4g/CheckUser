@@ -215,7 +215,8 @@ function console_menu() {
     fi
 
     echo -e "╔════════════════•⊱✦⊰•════════════════╗" | lolcat
-    echo '🔗 URL Checkuser: http://'$addr':'$port''
+    echo
+    echo '🔗 URL: http://'$addr':'$port''
     echo
     echo '[01] - INSTALAR CHECKUSER'
     echo '[02] - REINSTALAR CHECKUSER'
