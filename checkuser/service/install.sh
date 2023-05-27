@@ -217,12 +217,12 @@ function console_menu() {
     echo -e "╔════════════════•⊱✦⊰•════════════════╗" | lolcat
     echo '🔗 URL: http://'$addr':'$port''
     echo
-    echo '[01] - INSTALAR CHECKUSER'
-    echo '[02] - REINSTALAR CHECKUSER'
-    echo '[03] - DESINSTALAR CHECKUSER'
-    echo '[04] - GERENCIAR DEVICEID'
-    echo '[05] - ALTERAR PORTA CHECKUSER'
-    echo '[00] - SAIR'
+    echo ' [01] - INSTALAR CHECKUSER'
+    echo ' [02] - REINSTALAR CHECKUSER'
+    echo ' [03] - DESINSTALAR CHECKUSER'
+    echo ' [04] - GERENCIAR DEVICEID'
+    echo ' [05] - ALTERAR PORTA CHECKUSER'
+    echo ' [00] - SAIR'
     echo -e "╚════════════════•⊱✦⊰•════════════════╝" | lolcat
     echo
     read -p '★ Escolha uma opção: ' option
