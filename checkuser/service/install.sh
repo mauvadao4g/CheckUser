@@ -216,6 +216,7 @@ function console_menu() {
 
     echo -e "╔════════════════•⊱✦⊰•════════════════╗" | lolcat
     echo '🔗 URL: http://'$addr':'$port''
+    echo
     echo '[01] - INSTALAR CHECKUSER'
     echo '[02] - REINSTALAR CHECKUSER'
     echo '[03] - DESINSTALAR CHECKUSER'
